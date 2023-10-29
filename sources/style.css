@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,200&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -82,4 +84,25 @@ h2 {
     gap: 40px;
     flex-wrap: wrap;
     text-align: center;
+}
+
+/* review */
+
+.third-container p{
+    text-align: center;
+    padding: 40px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    background-color: #3F4E4F;
+    color: aliceblue;
 }
